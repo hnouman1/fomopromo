@@ -1,0 +1,57 @@
+.Heading {
+	padding: 0px !important;
+
+	p{
+		color: #000000;
+		font-family: Poppins;
+		font-size: 17px;
+		font-weight: 500;
+		letter-spacing: 0;
+		line-height: 26px;
+	}
+}
+
+.messageField {
+	&>label {
+		color: #7e7e7e !important;
+		line-height: 20px !important;
+	}
+
+}
+
+.marginbottomSelect {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.displayNone {
+	display: none !important;
+}
+
+.inputendornment {
+	cursor: pointer;
+}
+
+.dropDownCustomizeSvg {
+	svg {
+		margin-left: -33px;
+		margin-right: 20px;
+	}
+}
+
+.inActive {
+	color: #717171;
+	font-family: Poppins;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 25px;
+}
+
+.active {
+	color: #000000;
+	font-family: Poppins;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 25px;
+}

@@ -1,0 +1,26 @@
+@import '../../variable.module.scss';
+
+.detailContainer {
+  max-width: 1235px;
+  min-width: 1235px;
+  padding-bottom: 15px;
+  margin: auto;
+}
+
+.toggleStatusContainer {
+  display: flex;
+  gap: 30px;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .toggleStatusContainer {
+      > * {
+        &:not(:last-child) {
+          margin-right: 30px !important;
+        }
+      }
+    }
+   
+  }
+}
